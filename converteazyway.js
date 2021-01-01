@@ -35,6 +35,15 @@ function convertWeight(summation, unitWeight) {
             case 'g':
                 OutputWeight += el[0] / 1000
                 break;
+            case 'dg':
+                OutputWeight += el[0] / 10000
+                break;
+            case 'cg':
+                OutputWeight += el[0] / 100000
+                break;
+            case 'mg':
+                OutputWeight += el[0] / 1000000
+                break;
 
 
         }
@@ -60,6 +69,16 @@ function convertWeight(summation, unitWeight) {
         case 'g':
             return ` ${OutputWeight *= 1000} g`
             break;
+        case 'dg':
+            return ` ${OutputWeight *= 10000} dg`
+            break;
+        case 'cg':
+            return ` ${OutputWeight *= 100000} cg`
+            break;
+        case 'mg':
+            return ` ${OutputWeight *= 1000000} mg`
+            break;
+
     }
 
 

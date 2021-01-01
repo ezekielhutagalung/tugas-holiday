@@ -18,22 +18,22 @@ function convertWeight(summation, unitWeight) {
     output.forEach(el => {
         switch (el[1]) {
             case 'ton':
-                console.log(OutputWeight += el[0] * 1000)
+                OutputWeight += el[0] * 1000
                 break;
             case 'kwintal':
-                console.log(OutputWeight += el[0] * 100)
+                OutputWeight += el[0] * 100
                 break;
             case 'kg':
-                console.log(OutputWeight += +el[0])
+                OutputWeight += +el[0]
                 break;
             case 'ons':
-                console.log(OutputWeight += el[0] / 10)
+                OutputWeight += el[0] / 10
                 break;
             case 'hg':
-                console.log(OutputWeight += el[0] / 100)
+                OutputWeight += el[0] / 100
                 break;
             case 'g':
-                console.log(OutputWeight += el[0] / 1000)
+                OutputWeight += el[0] / 1000
                 break;
 
 
